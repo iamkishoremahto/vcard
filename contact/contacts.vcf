@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Deepak Thomas
+N:Thomas;Deepak;;;
+item1.EMAIL;TYPE=INTERNET:deepakthomas@myamericandoctor.com
+item1.X-ABLabel:
+TEL;TYPE=WORK:+1 614-636-2470
+ADR;TYPE=WORK:;;3719 Broadway St suite 301;Quincy;IL;62305;US;3719 Broadway
+  St suite 301\nQuincy\, IL 62305\nUS
+ORG:https\://www.myamericandoctor.com
+NOTE:Social: facebook.com\nSocial: instagram.com\nSocial: youtube.com\nSoci
+ al: linkedin.com\nSocial: x.com
+CATEGORIES:myContacts
+END:VCARD

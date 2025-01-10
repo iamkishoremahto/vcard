@@ -14,21 +14,21 @@
 }
 
     </style>
-    <div class="mainWrapper flex items-center justify-center">
+    <div class="mainWrapper flex items-center justify-center ">
         <div class="continer flex items-center justify-center">
-            <div class="vcardWrapper flex items-center justify-center flex-col border overflow-hidden">
+            <div class="vcardWrapper max-w-[390px] md:max-w-[400px] flex items-center justify-center flex-col  overflow-hidden">
                 <div class="logo flex items-center justify-center p-3">
                     <img class="max-h-[70px] w-auto" src="./images/logo.jpeg" alt="logo">
                 </div>
                 
-                <div class="profile  p-2 relative  m-10 w-full bg-blue-50 h-full  ">
+                <div class="profile   relative  m-[80px] w-full bg-blue-50 h-full  ">
                     <div class=" absolute -top-[50%] right-0 curved-bg  bg-blue-50 min-h-full w-full -z-10">
 
                     </div>
                     <div class=" absolute -top-[51%] -rotate-[1deg] right-0 curved-bg bg-blue-950 min-h-full w-full -z-20">
 
                     </div>
-                    <div class="details flex items-center  justify-around z-10">
+                    <div class="details flex items-center  justify-center gap-2 z-10">
                         <div class="photo rounded-full p-[2px] shadow-md">
                             <img class="max-w-[90px] rounded-full  h-auto" src="./images/person.jpg" alt="photo">
                         </div>
@@ -39,8 +39,8 @@
                         </div>
                     </div>
 
-                    <div class="contactDetails">
-                        <div>
+                    <div class="contactDetails mt-5 flex flex-col gap-3 ">
+                        <div class="flex flex-row gap-3 p-2 pl-5 bg-white text-blue-950  text-sm  ">
                             <div class="icon">
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
@@ -51,7 +51,7 @@
                             </div>
                         </div>
 
-                        <div>
+                        <div class="flex flex-row gap-3 p-2 pl-5 bg-white text-blue-950  text-sm">
                             <div class="icon">
                                 <i class="fa-solid fa-phone"></i>
                             </div>
@@ -62,7 +62,7 @@
                             </div>
                         </div>
 
-                        <div>
+                        <div class="flex flex-row gap-3 p-2 pl-5 bg-white text-blue-950  text-sm">
                             <div class="icon">
                                 <i class="fa-solid fa-globe"></i>
                             </div>
@@ -73,7 +73,7 @@
                             </div>
                         </div>
 
-                        <div>
+                        <div class="flex flex-row gap-3 p-2 pl-5 bg-white text-blue-950  text-sm">
                             <div class="icon">
                                 <i class="fa-solid fa-location-dot"></i>
                             </div>
@@ -84,6 +84,66 @@
                             </div>
                         </div>
                     </div>
+                    <div class="mt-5">
+                        <div class="relative">
+                            <div class=" h-[1px] w-full bg-blue-950"></div>
+                            <p class="absolute top-[50%] left-[50%]  translate-x-[-50%] translate-y-[-50%] bg-blue-50 p-1 font-bold text-blue-950">Follow us</p>
+                        </div>
+                        <div class="social flex items-center text-xl justify-evenly py-5">
+                            <div class="icon text-blue-600">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+    
+                            <div class="icon text-pink-600">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+    
+                            <div class="icon text-blue-800">
+                                <a href="https://www.linkedin.com/" target="_blank">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+    
+                            <div class="icon text-red-500">
+                                <a href="https://www.youtube.com/" target="_blank">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+    
+                            <div class="icon">
+                                <a href="https://x.com/?lang=en&mx=2" target="_blank">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="saveButtonWrapper flex relative items-center justify-center">
+                            <a class="flex flex-row gap-2 text-md items-center p-2 bg-gradient-to-r from-slate-700 to-pink-600  rounded-3xl px-10" 
+                            href="./contact/contacts.vcf" download target="_blank">
+                                <div class="icon">
+                                    <div class="bg-white p-3 rounded-full w-9 h-9 flex items-center justify-center">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="text-white font-bold">Save to contacts</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" w-full mt-5">
+                        <div class="flex flex-row">
+                            <div class="bg-blue-950 h-4 w-full"></div>
+                        <div class="bg-red-900 h-4 w-full"></div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
