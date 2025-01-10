@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p class="text-blue-700">hello tailwind css</p>
+    <style>
+        .curved-bg {
+    clip-path: ellipse(90% 62% at 52% 100%);
+}
+
+    </style>
+    <div class="mainWrapper flex items-center justify-center">
+        <div class="continer flex items-center justify-center">
+            <div class="vcardWrapper flex items-center justify-center flex-col border overflow-hidden">
+                <div class="logo flex items-center justify-center p-3">
+                    <img class="max-h-[70px] w-auto" src="./images/logo.jpeg" alt="logo">
+                </div>
+                
+                <div class="profile  p-2 relative  m-10 w-full bg-blue-50 h-full  ">
+                    <div class=" absolute -top-[50%] right-0 curved-bg  bg-blue-50 min-h-full w-full -z-10">
+
+                    </div>
+                    <div class=" absolute -top-[51%] -rotate-[1deg] right-0 curved-bg bg-blue-950 min-h-full w-full -z-20">
+
+                    </div>
+                    <div class="details flex items-center  justify-around z-10">
+                        <div class="photo rounded-full p-[2px] shadow-md">
+                            <img class="max-w-[90px] rounded-full  h-auto" src="./images/person.jpg" alt="photo">
+                        </div>
+                        <div class="person_details">
+                            <h1 class="font-bold text-blue-950 text-xl">Deepak Thomas, MD</h1>
+                            <p class="text-red-700">Cardiologist</p>
+                            <p class="text-blue-950 text-sm">Co-founder & Chief Executive Officer</p>
+                        </div>
+                    </div>
+
+                    <div class="contactDetails">
+                        <div>
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="data">
+                                <a href="mailto:deepakthomas@myamericandoctor.com">
+                                    deepakthomas@myamericandoctor.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="data">
+                                <a href="tel:+16146362470">
+                                    +1 (614) 636-2470
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="icon">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="data">
+                                <a href="https://www.myamericandoctor.com">
+                                    www.myamericandoctor.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="data">
+                                <a href="https://maps.app.goo.gl/Zd8MHgforG79Nq4TA" target="_blank">
+                                    3719 Broadway Street Suite - 301 Quincy, IL 62305
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
